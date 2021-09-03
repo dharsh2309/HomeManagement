@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include home_management *.css
+recursive-include home_management *.csv
+recursive-include home_management *.html
+recursive-include home_management *.ico
+recursive-include home_management *.js
+recursive-include home_management *.json
+recursive-include home_management *.md
+recursive-include home_management *.png
+recursive-include home_management *.py
+recursive-include home_management *.svg
+recursive-include home_management *.txt
+recursive-exclude home_management *.pyc

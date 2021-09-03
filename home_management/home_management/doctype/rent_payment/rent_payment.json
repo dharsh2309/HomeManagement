@@ -1,0 +1,114 @@
+{
+ "actions": [],
+ "autoname": "series.##",
+ "creation": "2021-08-23 15:42:47.100953",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tenant",
+  "appno",
+  "section_break_3",
+  "date_of_amount_paid_last_time",
+  "todays_date",
+  "totaldays",
+  "daily_rent",
+  "total_rent",
+  "amount_paid",
+  "balance_to_be_paid",
+  "section_break_11",
+  "feedback"
+ ],
+ "fields": [
+  {
+   "fieldname": "appno",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "AppNo",
+   "options": "Booked Houses"
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Small Text",
+   "label": "If any issues please mention here"
+  },
+  {
+   "fieldname": "totaldays",
+   "fieldtype": "Int",
+   "label": "Total Days"
+  },
+  {
+   "fetch_from": "New Tenant.name_of_the_tenant",
+   "fieldname": "tenant",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Name ",
+   "options": "New Tenant"
+  },
+  {
+   "default": "350",
+   "fieldname": "daily_rent",
+   "fieldtype": "Currency",
+   "label": "Daily Rent"
+  },
+  {
+   "fieldname": "total_rent",
+   "fieldtype": "Currency",
+   "label": "Total Rent "
+  },
+  {
+   "fieldname": "amount_paid",
+   "fieldtype": "Currency",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "balance_to_be_paid",
+   "fieldtype": "Currency",
+   "label": "Balance To Be Paid"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "date_of_amount_paid_last_time",
+   "fieldtype": "Date",
+   "label": "Date Of amount paid last Month"
+  },
+  {
+   "fieldname": "todays_date",
+   "fieldtype": "Date",
+   "label": "Todays Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "max_attachments": 3,
+ "modified": "2021-09-02 23:08:43.194483",
+ "modified_by": "Administrator",
+ "module": "Home Management",
+ "name": "Rent Payment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

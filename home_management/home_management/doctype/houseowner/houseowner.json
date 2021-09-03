@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "autoname": "format:{ownername}-{#####}",
+ "creation": "2021-08-24 23:35:41.429218",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ownername",
+  "phoneno",
+  "availabilityofappartment",
+  "appartmentname",
+  "rentpermonth",
+  "conditionstobefollowed"
+ ],
+ "fields": [
+  {
+   "fieldname": "ownername",
+   "fieldtype": "Data",
+   "label": "OwnerName"
+  },
+  {
+   "fieldname": "phoneno",
+   "fieldtype": "Data",
+   "label": "PhoneNo"
+  },
+  {
+   "fieldname": "availabilityofappartment",
+   "fieldtype": "Select",
+   "label": "AvailabilityOfAppartment",
+   "options": "Available\nNot Available"
+  },
+  {
+   "fieldname": "rentpermonth",
+   "fieldtype": "Float",
+   "label": "RentPerMonth"
+  },
+  {
+   "fieldname": "conditionstobefollowed",
+   "fieldtype": "Long Text",
+   "label": "ConditionsToBeFollowed"
+  },
+  {
+   "fieldname": "appartmentname",
+   "fieldtype": "Data",
+   "label": "AppartmentName"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-08-25 00:01:41.512168",
+ "modified_by": "Administrator",
+ "module": "Home Management",
+ "name": "HouseOwner",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

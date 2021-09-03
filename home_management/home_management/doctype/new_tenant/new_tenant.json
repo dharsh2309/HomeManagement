@@ -1,0 +1,86 @@
+{
+ "actions": [],
+ "autoname": "format:{name_of_the_tenant}-{id}",
+ "creation": "2021-08-25 11:55:00.521946",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name_of_the_tenant",
+  "id",
+  "phone_no",
+  "appartment_no",
+  "photo",
+  "document",
+  "date_of_in",
+  "daily_rent"
+ ],
+ "fields": [
+  {
+   "fieldname": "name_of_the_tenant",
+   "fieldtype": "Data",
+   "label": "Name of the Tenant"
+  },
+  {
+   "fieldname": "id",
+   "fieldtype": "Data",
+   "label": "ID "
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "appartment_no",
+   "fieldtype": "Int",
+   "label": "Appartment No"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "document",
+   "fieldtype": "Attach",
+   "label": "Document"
+  },
+  {
+   "fieldname": "date_of_in",
+   "fieldtype": "Date",
+   "label": "Date of in"
+  },
+  {
+   "default": "350",
+   "fieldname": "daily_rent",
+   "fieldtype": "Currency",
+   "label": "Daily Rent"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-09-02 19:13:10.049352",
+ "modified_by": "Administrator",
+ "module": "Home Management",
+ "name": "New Tenant",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
